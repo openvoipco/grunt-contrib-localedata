@@ -6,23 +6,23 @@ tasks\config\localedata.js:
 ```
 module.exports = function(grunt) {
 
-	grunt.config.set('localedata', {
+grunt.config.set('localedata', {
 
     default: {
-			options: {
+      options: {
         startTag: '//LOCALEDATA',
         endTag: '//ENDLOCALEDATA',
         variableName: 'i18n',
         phrasePrefix: null
-			},
+      },
       files: [
         { src: 'config/locales/*.json', dest: require('../pipeline').localeDataFiles }
       ]
-		}
+    }
 
-	});
+});
 
-	grunt.loadNpmTasks('grunt-contrib-localedata');
+grunt.loadNpmTasks('grunt-contrib-localedata');
 
 };
 ```
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
 tasks\register\default.js:
 ```
 module.exports = function (grunt) {
-	grunt.registerTask('default', ['compileAssets', 'linkAssets', 'localedata', 'watch']);
+  grunt.registerTask('default', ['compileAssets', 'linkAssets', 'localedata', 'watch']);
 };
 ```
 
