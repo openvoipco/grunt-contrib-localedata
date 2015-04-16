@@ -1,0 +1,28 @@
+{
+  "name": "grunt-contrib-localedata",
+  "description": "Inserts locale data to a JS file",
+  "version": "0.0.1",
+  "homepage": "https://github.com/openvoipco/grunt-contrib-localedata",
+  "contributors": [
+    {
+      "name": "Roman Davydov",
+      "email": "openvoip.co@gmail.com",
+      "url": "http://openvoip.co"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "0.4.0rc7"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "readme": "Inserts locale data to a JS file",
+  "bugs": {
+    "url": "https://github.com/openvoipco/grunt-contrib-localedata/issues"
+  }
+}
