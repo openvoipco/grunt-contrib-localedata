@@ -6,6 +6,7 @@ var path = require('path');
 module.exports = function(grunt) {
 
 	grunt.registerMultiTask('localedata', 'Does good stuff.', function() {
+
 		// Merge task-specific and/or target-specific options with these defaults.
 		var options = this.options({
       startTag: '//LOCALEDATA',
